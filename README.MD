@@ -1,7 +1,4 @@
-MIMIC-IV-ECG 
-ECG 12 LEAD 1D ECGNet train&val&test
-
-numpy==1.26.4
+numpy==1.26.4 /
 pandas==2.2.3
 python==3.10.14
 torch==2.3.0+cu121
