@@ -6,6 +6,10 @@ from https://www.kaggle.com/code/nischaydnk/lightning-1d-eegnet-training-pipelin
 
 Wave data URL : https://www.kaggle.com/datasets/beckpro/mimic-iv-ecg-wave-npy-dataset/data
 
+load .pt files to make inference. 
+
+wo_pre means without preprocessing(bandpass low/high filter)
+
 numpy==1.26.4 
 
 pandas==2.2.3
