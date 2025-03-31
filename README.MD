@@ -1,3 +1,7 @@
+MIMIC-IV-ECG 
+
+1D ECGNet from https://www.kaggle.com/code/nischaydnk/lightning-1d-eegnet-training-pipeline-hbs/notebook
+
 numpy==1.26.4 
 
 pandas==2.2.3
