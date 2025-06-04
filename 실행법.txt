@@ -1,0 +1,15 @@
+실행환경
+- windows 10
+- torch == 2.3.0 + cu121
+- python == 3.10.14
+
+1) wave .npy 파일 압축 풀기->project/data 안에 풀기
+2) anaconda prompt -> activate 환경명 -> pip install -r requirements.txt 
+(단, torch는 개별 GPU버전 다운받기)
+3) vscode train.py open
+4) 인터프리터 실행 후 project 폴더로 이동
+5) python train.py -a afib 혹은 python train.py -a aflu
+(wandb 아이디 및 로그인 필요)
+6) 학습 끝난 후 output 폴더에 해당 atrial의 best model.pt 파일 및 validation.csv 저장
+7) python test.py -a afib 혹은 pyhthon test.py -a aflu
+8) 같은 폴더 내에 test.csv 결과물 저장
