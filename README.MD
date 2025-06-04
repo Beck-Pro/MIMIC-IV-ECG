@@ -6,23 +6,13 @@ from https://www.kaggle.com/code/nischaydnk/lightning-1d-eegnet-training-pipelin
 
 Wave data URL : https://www.kaggle.com/datasets/beckpro/mimic-iv-ecg-wave-npy-dataset/data
 
-load .pt files to make inference. 
 
-wo_pre means without preprocessing(bandpass low/high filter)
+1. Model
+- Teacher Model - Net 1d 
 
-numpy==1.26.4 
+- Student Model - ECGNet
 
-pandas==2.2.3
+2. Test Performance ( Balanced Acc = 0.5 * (Sensitivity + Specificity) ) 
+< Atrial Fib Test Performance >
 
-python==3.10.14
-
-torch==2.3.0+cu121
-
-torchmetrics==1.4.0.post0
-
-tqdm==4.66.4
-
-scipy==1.15.2
-
-scikit-learn==1.5.0
-
+< Atrial Flutter Test Performance > 
