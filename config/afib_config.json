@@ -1,0 +1,17 @@
+{
+    "fs" : 500,
+    "kernels" : [3, 5, 7, 9],
+    "threshold" : 0.5, 
+    "name" : "refine_2stage_fib",
+    "model_name" : "ssl_net1d_fib.pt",
+    "train_path" : "./data/train/train_fib.csv",
+    "val_path" : "./data/val/val_fib.csv",
+    "test_path" : "./data/test/test_fib.csv",
+    "wave_dir" : "./data/wave",
+    "output_dir" : "./output/afib",
+    "batch_size" : 32,
+    "epochs" : 20,
+    "lr" : 1e-3,
+    "seed" : 42,
+    "wandb_project" : "ssl_net1d_fib"
+}

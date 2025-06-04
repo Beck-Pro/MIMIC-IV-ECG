@@ -1,0 +1,17 @@
+{
+    "fs" : 500,
+    "kernels" : [3, 5, 7, 9],
+    "threshold" : 0.5, 
+    "name" : "refine_2stage_flu",
+    "model_name" : "ssl_net1d_flu.pt",
+    "train_path" : "./data/train/train_flu.csv",
+    "val_path" : "./data/val/val_flu.csv",
+    "test_path" : "./data/test/test_flu.csv",
+    "wave_dir" : "./data/wave",
+    "output_dir" : "./output/aflu",
+    "batch_size" : 32,
+    "epochs" : 20,
+    "lr" : 1e-3,
+    "seed" : 42,
+    "wandb_project" : "ssl_net1d_flu"
+}
